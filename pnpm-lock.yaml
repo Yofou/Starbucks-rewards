@@ -15,13 +15,17 @@ specifiers:
   svelte: ^3.44.0
   svelte-check: ^2.2.6
   svelte-preprocess: ^4.10.1
+  svelte-use-click-outside: ^1.0.0
   tailwindcss: ^3.0.23
   tslib: ^2.3.1
   typescript: ~4.6.2
 
+dependencies:
+  svelte-use-click-outside: 1.0.0
+
 devDependencies:
-  '@sveltejs/adapter-auto': 1.0.0-next.31
-  '@sveltejs/kit': 1.0.0-next.295_svelte@3.46.4
+  '@sveltejs/adapter-auto': 1.0.0-next.32
+  '@sveltejs/kit': 1.0.0-next.296_svelte@3.46.4
   '@typescript-eslint/eslint-plugin': 5.14.0_e3f5f4efe2bd492e36eb6c1c619dfc98
   '@typescript-eslint/parser': 5.14.0_eslint@7.32.0+typescript@4.6.2
   autoprefixer: 10.4.2_postcss@8.4.8
@@ -125,8 +129,8 @@ packages:
       picomatch: 2.3.1
     dev: true
 
-  /@sveltejs/adapter-auto/1.0.0-next.31:
-    resolution: {integrity: sha512-N1ZFGxulcSAOJrtdFR567diwbWKUvLrHZiUE9TiEvIahnndeRa50MF9LDg/CuIvpa6fHqz5K827XXrADlPAr9g==}
+  /@sveltejs/adapter-auto/1.0.0-next.32:
+    resolution: {integrity: sha512-dfJKBMHBCBbGfSbwJIXqBRzp+bOu2pv/jq7jeNfaESVRdLEgYh0eEtF/gfOMp7fIcDHjLEzZ2ZymG7AWsO9Wjg==}
     dependencies:
       '@sveltejs/adapter-cloudflare': 1.0.0-next.15
       '@sveltejs/adapter-netlify': 1.0.0-next.50
@@ -153,8 +157,8 @@ packages:
       esbuild: 0.14.25
     dev: true
 
-  /@sveltejs/kit/1.0.0-next.295_svelte@3.46.4:
-    resolution: {integrity: sha512-4pO/swXByhU+7bhNikTjh1d4QxAMP9TZ74p7sdPuyJf5cg7Zrfk1nBtaMt0R+8+5j1xfC/XWRcxa3WnhT9bQMA==}
+  /@sveltejs/kit/1.0.0-next.296_svelte@3.46.4:
+    resolution: {integrity: sha512-mZM3vYSg1VPpgL2QHa+My+KviOuSgP4e5JRO9/T/5XLe3o2tsrRnSpjuzZeVdcY3B4+OrUb5JV7B1UPkHISrLA==}
     engines: {node: '>=14.13'}
     hasBin: true
     peerDependencies:
@@ -1861,6 +1865,10 @@ packages:
       svelte: 3.46.4
       typescript: 4.6.2
     dev: true
+
+  /svelte-use-click-outside/1.0.0:
+    resolution: {integrity: sha512-tOWeMPxeIoW9RshS0WbogRhdYdbxcJV0ebkzSh1lwR7Ihl0hSZMmB4YyCHHoXJK4xcbxCCFh0AnQ1vkzGZfLVQ==}
+    dev: false
 
   /svelte/3.46.4:
     resolution: {integrity: sha512-qKJzw6DpA33CIa+C/rGp4AUdSfii0DOTCzj/2YpSKKayw5WGSS624Et9L1nU1k2OVRS9vaENQXp2CVZNU+xvIg==}
